@@ -77,3 +77,10 @@ nav {
     padding: 40px 20px;
     text-align: center;
 }
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
