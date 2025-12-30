@@ -84,3 +84,9 @@ nav {
     flex-wrap: wrap;
     padding-top: 15px;
 }
+.project-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 260px;
+    border-radius: 6px;
+}
