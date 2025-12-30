@@ -90,3 +90,7 @@ nav {
     width: 260px;
     border-radius: 6px;
 }
+.section-contact {
+    padding: 40px 20px;
+    text-align: center;
+}
