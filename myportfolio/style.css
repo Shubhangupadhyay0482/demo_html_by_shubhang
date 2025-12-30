@@ -58,3 +58,7 @@ nav {
     border-radius: 50%;
     width: 200px;
 }
+.section-about {
+    padding: 40px 20px;
+    text-align: center;
+}
