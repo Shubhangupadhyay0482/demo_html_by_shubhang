@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-     <section id="home" class="section-home">
-        <h1>Hello, I'm Shubhang Upadhyay</h1>
-        <p>Aspiring Web Developer | HTML, CSS, GitHub</p>
-        <a href="#contact" class="btn">Hire Me</a>
-        <div class="profile-img">
-            <!-- You can replace with your own image -->
-            <img src="https://via.placeholder.com/200" alt="Profile Image">
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My Portfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Your Name</span></h1>
+
+            <p>
+                Aspiring Web Developer | HTML, CSS, GitHub.
+            </p>
+            <button>Hire Me</button>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/300" alt="Profile">
         </div>
     </section>
-    <section id="about" class="section-about">
+
+
+    <section class="about">
         <h2>About Me</h2>
-        <p>I am a passionate Web Developer learning Frontend development with HTML, CSS, and GitHub. I enjoy creating clean and responsive websites and improving my skills every day.</p>
+        <p>
+            I am a passionate Web Developer learning Frontend development with HTML, CSS, and GitHub. I enjoy creating clean and responsive websites and improving my skills every day.
+        </p>
     </section>
-    <section id="skills" class="section-skills">
+
+
+    <section class="skills">
         <h2>My Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Responsive Design</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-     <section id="projects" class="section-projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Portfolio Website</h3>
-                <p>Responsive HTML & CSS portfolio design.</p>
-            </div>
-            <div class="project-item">
-                <h3>Student Registration Form</h3>
-                <p>Clean & validated form using HTML.</p>
-            </div>
-            <div class="project-item">
-                <h3>Product Landing Page</h3>
-                <p>Modern UI with flexbox layout.</p>
-            </div>
+        <div class="skill-box">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Git & GitHub</span>
+            <span>Responsive Design</span>
         </div>
     </section>
-     <section id="contact" class="section-contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label>Full Name</label>
-            <input type="text" placeholder="Your Full Name">
 
-            <label>Email</label>
-            <input type="email" placeholder="Your Email">
-
-            <label>Message</label>
-            <textarea placeholder="Your Message"></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-box">
+            <div class="project">Portfolio Website</div>
+            <div class="project">Landing Page</div>
+            <div class="project">Form Design</div>
+        </div>
     </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2025 MyPortfolio | All Rights Reserved</p>
+        <p>© 2025 My Portfolio</p>
     </footer>
+
 </body>
 </html>
