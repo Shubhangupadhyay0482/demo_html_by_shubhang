@@ -70,3 +70,10 @@ nav {
     list-style: none;
     padding-top: 10px;
 }
+.section-skills li {
+    padding: 6px 0;
+}
+.section-projects {
+    padding: 40px 20px;
+    text-align: center;
+}
