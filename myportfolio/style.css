@@ -94,3 +94,9 @@ nav {
     padding: 40px 20px;
     text-align: center;
 }
+form {
+    display: grid;
+    gap: 12px;
+    max-width: 350px;
+    margin: auto;
+}
