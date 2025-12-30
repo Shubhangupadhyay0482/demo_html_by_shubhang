@@ -12,3 +12,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+nav {
+    background: #fff;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
