@@ -114,3 +114,10 @@ button {
     cursor: pointer;
     border-radius: 4px;
 }
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 40px;
+}
